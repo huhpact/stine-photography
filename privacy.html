@@ -7,7 +7,11 @@
   <meta name="description" content="Datenschutzerklärung von Stine Photography – Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO." />
   <link rel="canonical" href="https://stine-photography.de/privacy.html" />
   <meta name="robots" content="noindex, follow" />
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📷</text></svg>" />
+  <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png?v=20260625" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg?v=20260625" />
+	<link rel="shortcut icon" href="/favicon/favicon.ico?v=20260625" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=20260625" />
+	<link rel="manifest" href="/favicon/site.webmanifest?v=20260625" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -19,19 +23,21 @@
 
   <div class="scroll-progress" id="scrollProgress" role="progressbar" aria-label="Scroll-Fortschritt"></div>
 
-  <!-- NAV -->
-  <header class="site-header" id="siteHeader" role="banner">
+   <header class="site-header" id="siteHeader" role="banner">
     <nav class="nav-container" aria-label="Hauptnavigation">
-      <a href="index.html" class="nav-logo" aria-label="Stine Photography – Startseite">
-        <span class="logo-text">Stine <em>Photography</em></span>
+      <a href="/" class="nav-logo" aria-label="Stine Photography – Startseite">
+        <img src="img/logo.png" alt="Stine Photography Logo" class="nav-logo-img" />
       </a>
+
       <ul class="nav-links" role="list">
-        <li><a href="index.html" class="nav-link">Home</a></li>
-        <li><a href="gallery.html" class="nav-link">Galerie</a></li>
-        <li><a href="photo-booths.html" class="nav-link">Photo Booths</a></li>
-        <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
+        <li><a href="/index.html" class="nav-link" aria-current="page">Home</a></li>
+        <li><a href="/gallery.html" class="nav-link">Galerie</a></li>
+        <li><a href="/photo-booths.html" class="nav-link">Photo Booths</a></li>
+        <li><a href="/contact.html" class="nav-link">Kontakt</a></li>
       </ul>
-      <a href="kontakt.html" class="nav-cta">Anfragen</a>
+
+      <a href="/contact.html" class="nav-cta">Anfragen</a>
+
       <button class="hamburger" id="hamburger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navDrawer">
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
@@ -47,22 +53,27 @@
     </button>
     <nav aria-label="Mobile Hauptnavigation">
       <ul class="drawer-links" role="list">
-        <li><a href="index.html" class="drawer-link">Home</a></li>
-        <li><a href="gallery.html" class="drawer-link">Galerie</a></li>
-        <li><a href="photo-booths.html" class="drawer-link">Photo Booths</a></li>
-        <li><a href="kontakt.html" class="drawer-link">Kontakt</a></li>
+        <li><a href="/index.html" class="drawer-link">Home</a></li>
+        <li><a href="/gallery.html" class="drawer-link">Galerie</a></li>
+        <li><a href="/photo-booths.html" class="drawer-link">Photo Booths</a></li>
+        <li><a href="/contact.html" class="drawer-link">Kontakt</a></li>
       </ul>
     </nav>
-    <div class="drawer-social">
-      <a href="https://www.instagram.com/stinephotography" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-      <a href="https://www.facebook.com/stinephotography" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
-      <a href="https://wa.me/4933112345678" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+    <div class="drawer-social" aria-label="Social Media Links">
+      <a href="https://www.instagram.com/stinephotography" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.facebook.com/stinephotography" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+      </a>
+      <a href="https://wa.me/493316003340" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+      </a>
     </div>
   </aside>
 
   <main>
 
-    <!-- LEGAL HEADER -->
     <div class="legal-header">
       <div class="container">
         <nav class="breadcrumb" aria-label="Brotkrumen-Navigation">
@@ -77,32 +88,9 @@
       </div>
     </div>
 
-    <!-- TOC -->
-    <div class="legal-toc-wrap">
-      <div class="container container--legal">
-        <nav class="legal-toc" aria-label="Inhaltsverzeichnis">
-          <p class="legal-toc-heading">Inhaltsverzeichnis</p>
-          <ol class="legal-toc-list">
-            <li><a href="#ds-verantwortlicher">Verantwortlicher</a></li>
-            <li><a href="#ds-grundsaetze">Grundsätze der Datenverarbeitung</a></li>
-            <li><a href="#ds-serverlog">Server-Log-Dateien &amp; Hosting</a></li>
-            <li><a href="#ds-cookies">Cookies &amp; Speicherung</a></li>
-            <li><a href="#ds-kontakt">Kontaktaufnahme</a></li>
-            <li><a href="#ds-googlefonts">Google Fonts</a></li>
-            <li><a href="#ds-externe">Externe Inhalte (Pexels, WhatsApp)</a></li>
-            <li><a href="#ds-rechte">Ihre Rechte als betroffene Person</a></li>
-            <li><a href="#ds-sicherheit">Datensicherheit</a></li>
-            <li><a href="#ds-aktuell">Aktualität &amp; Änderungen</a></li>
-          </ol>
-        </nav>
-      </div>
-    </div>
-
-    <!-- LEGAL CONTENT -->
     <div class="legal-content">
       <div class="container container--legal">
 
-        <!-- 1. Verantwortlicher -->
         <section class="legal-section" id="ds-verantwortlicher" aria-labelledby="ls-verantwortlicher">
           <h2 class="legal-section-title" id="ls-verantwortlicher">
             <span class="legal-section-num">01</span>
@@ -111,17 +99,15 @@
           <div class="legal-card">
             <p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) und anderer nationaler Datenschutzgesetze sowie sonstiger datenschutzrechtlicher Bestimmungen ist:</p>
             <address class="legal-address legal-address--highlight">
-              Stine Möller / Stine Photography<br />
-              Brandenburger Straße 45<br />
-              14467 Potsdam<br />
-              Telefon: <a href="tel:+4933112345678">+49 (0) 331 123 456 78</a><br />
-              E-Mail: <a href="mailto:datenschutz@stine-photography.de">datenschutz@stine-photography.de</a>
+              Stine Photography<br />
+              Janine & Stephan Limberg <br />
+              Ricarda-Huch-Str. 8<br />
+              14480 Potsdam<br />
             </address>
             <p class="legal-note"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Für datenschutzrechtliche Anfragen könnt ihr euch jederzeit direkt an uns wenden.</p>
           </div>
         </section>
 
-        <!-- 2. Grundsätze -->
         <section class="legal-section" id="ds-grundsaetze" aria-labelledby="ls-grundsaetze">
           <h2 class="legal-section-title" id="ls-grundsaetze">
             <span class="legal-section-num">02</span>
@@ -139,7 +125,6 @@
           </div>
         </section>
 
-        <!-- 3. Server-Log -->
         <section class="legal-section" id="ds-serverlog" aria-labelledby="ls-serverlog">
           <h2 class="legal-section-title" id="ls-serverlog">
             <span class="legal-section-num">03</span>
@@ -159,7 +144,6 @@
           </div>
         </section>
 
-        <!-- 4. Cookies -->
         <section class="legal-section" id="ds-cookies" aria-labelledby="ls-cookies">
           <h2 class="legal-section-title" id="ls-cookies">
             <span class="legal-section-num">04</span>
@@ -176,7 +160,6 @@
           </div>
         </section>
 
-        <!-- 5. Kontakt -->
         <section class="legal-section" id="ds-kontakt" aria-labelledby="ls-kontakt">
           <h2 class="legal-section-title" id="ls-kontakt">
             <span class="legal-section-num">05</span>
@@ -195,7 +178,6 @@
           </div>
         </section>
 
-        <!-- 6. Google Fonts -->
         <section class="legal-section" id="ds-googlefonts" aria-labelledby="ls-googlefonts">
           <h2 class="legal-section-title" id="ls-googlefonts">
             <span class="legal-section-num">06</span>
@@ -209,7 +191,6 @@
           </div>
         </section>
 
-        <!-- 7. Externe Inhalte -->
         <section class="legal-section" id="ds-externe" aria-labelledby="ls-externe">
           <h2 class="legal-section-title" id="ls-externe">
             <span class="legal-section-num">07</span>
@@ -224,7 +205,6 @@
           </div>
         </section>
 
-        <!-- 8. Rechte -->
         <section class="legal-section" id="ds-rechte" aria-labelledby="ls-rechte">
           <h2 class="legal-section-title" id="ls-rechte">
             <span class="legal-section-num">08</span>
@@ -276,18 +256,11 @@
                 </div>
               </div>
             </div>
-            <p style="margin-top: var(--sp-5);">Zur Ausübung eurer Rechte wendet euch bitte per E-Mail an: <a href="mailto:datenschutz@stine-photography.de">datenschutz@stine-photography.de</a></p>
-            <p><strong>Beschwerderecht (Art. 77 DSGVO):</strong> Ihr habt das Recht, euch bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Die zuständige Behörde für Brandenburg ist:</p>
-            <address>
-              Die Landesbeauftragte für den Datenschutz und für das Recht auf Akteneinsicht Brandenburg<br />
-              Stahnsdorfer Damm 77<br />
-              14532 Kleinmachnow<br />
-              <a href="https://www.lda.brandenburg.de" target="_blank" rel="noopener noreferrer">www.lda.brandenburg.de</a>
-            </address>
+            <p style="margin-top: var(--sp-5);">Zur Ausübung eurer Rechte wendet euch bitte per E-Mail an: <a href="mailto:info@stine-photography.de">info@stine-photography.de</a></p>
+            <p><strong>Beschwerderecht (Art. 77 DSGVO):</strong> Ihr habt das Recht, euch bei einer Datenschutz-Aufsichtsbehörde zu beschweren.</p>
           </div>
         </section>
 
-        <!-- 9. Datensicherheit -->
         <section class="legal-section" id="ds-sicherheit" aria-labelledby="ls-sicherheit">
           <h2 class="legal-section-title" id="ls-sicherheit">
             <span class="legal-section-num">09</span>
@@ -299,7 +272,6 @@
           </div>
         </section>
 
-        <!-- 10. Aktualität -->
         <section class="legal-section" id="ds-aktuell" aria-labelledby="ls-aktuell">
           <h2 class="legal-section-title" id="ls-aktuell">
             <span class="legal-section-num">10</span>
@@ -317,52 +289,57 @@
 
   </main>
 
-  <!-- FOOTER -->
   <footer class="site-footer" role="contentinfo">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="nav-logo footer-logo" aria-label="Stine Photography – Startseite">
-            <span class="logo-text">Stine <em>Photography</em></span>
+          <a href="/index.html" class="nav-logo footer-logo" aria-label="Stine Photography – zurück zur Startseite">
+            <img src="/img/logo.png" alt="Stine Photography Logo" class="footer-logo-img" />
           </a>
           <p class="footer-tagline">Zwei Herzen, ein gemeinsames Auge für den perfekten Moment. Hochzeitsfotografie in Potsdam und darüber hinaus.</p>
           <div class="footer-social">
             <a href="https://www.instagram.com/stinephotography" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
             <a href="https://www.facebook.com/stinephotography" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
-            <a href="https://wa.me/4933112345678" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="https://wa.me/493316003340" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
           </div>
         </div>
+
         <div class="footer-nav">
           <h3 class="footer-nav-title">Navigation</h3>
           <ul role="list">
-            <li><a href="index.html" class="footer-link">Home</a></li>
-            <li><a href="gallery.html" class="footer-link">Galerie</a></li>
-            <li><a href="photo-booths.html" class="footer-link">Photo Booths</a></li>
-            <li><a href="kontakt.html" class="footer-link">Kontakt</a></li>
+            <li><a href="/index.html" class="footer-link">Home</a></li>
+            <li><a href="/gallery.html" class="footer-link">Galerie</a></li>
+            <li><a href="#about" class="footer-link">Über uns</a></li>
+            <li><a href="/photo-booths.html" class="footer-link">Photo Booths</a></li>
+            <li><a href="#process" class="footer-link">Ablauf</a></li>
+            <li><a href="#faq" class="footer-link">FAQ</a></li>
+            <li><a href="/contact.html" class="footer-link">Kontakt</a></li>
           </ul>
         </div>
+
         <div class="footer-nav">
           <h3 class="footer-nav-title">Rechtliches</h3>
           <ul role="list">
-            <li><a href="imprint.html" class="footer-link">Impressum</a></li>
-            <li><a href="privacy.html" class="footer-link active" aria-current="page">Datenschutzerklärung</a></li>
-            <li><a href="cookies-policy.html" class="footer-link">Cookie-Richtlinie</a></li>
+            <li><a href="/imprint.html" class="footer-link">Impressum</a></li>
+            <li><a href="/privacy.html" class="footer-link">Datenschutzerklärung</a></li>
+            <li><a href="/cookies-policy.html" class="footer-link">Cookie-Richtlinie</a></li>
             <li><button class="footer-cookie-btn" id="footerCookieBtn">Cookie-Einstellungen</button></li>
           </ul>
         </div>
       </div>
+
       <div class="footer-bottom">
         <p class="footer-copyright">&copy; <span id="footerYear"></span> Stine Photography. Alle Rechte vorbehalten.</p>
-        <p class="footer-made-with">Hochzeitsfotografie in Potsdam &amp; Brandenburg</p>
+        <p class="credit">Réalisé par
+                    <a href="https://huhpact.dev?utm_source=stine&utm_medium=webbrowser&utm_campaign=stine">
+                        <img class="img__credit" src="https://huhpact.dev/images/G89WG6majMo4HT1WtrS4AfxE7BZj2yWS.png" alt="huh(pact)">
+                    </a>
+                </p>
       </div>
     </div>
   </footer>
 
-  <button class="back-to-top" id="backToTop" aria-label="Zurück nach oben">
-    <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
-  </button>
-
-  <a href="https://wa.me/4933112345678" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" aria-label="Via WhatsApp kontaktieren">
+  <a href="https://wa.me/493316003340" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" aria-label="Via WhatsApp kontaktieren">
     <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
     <span class="whatsapp-tooltip" aria-hidden="true">Schreibt uns!</span>
   </a>

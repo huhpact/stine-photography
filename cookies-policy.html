@@ -7,7 +7,11 @@
   <meta name="description" content="Cookie-Richtlinie von Stine Photography – welche Cookies wir verwenden, warum und wie ihr Einstellungen anpassen könnt." />
   <link rel="canonical" href="https://stine-photography.de/cookies-policy.html" />
   <meta name="robots" content="noindex, follow" />
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📷</text></svg>" />
+  	<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png?v=20260625" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg?v=20260625" />
+	<link rel="shortcut icon" href="/favicon/favicon.ico?v=20260625" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=20260625" />
+	<link rel="manifest" href="/favicon/site.webmanifest?v=20260625" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -19,19 +23,21 @@
 
   <div class="scroll-progress" id="scrollProgress" role="progressbar" aria-label="Scroll-Fortschritt"></div>
 
-  <!-- NAV -->
   <header class="site-header" id="siteHeader" role="banner">
     <nav class="nav-container" aria-label="Hauptnavigation">
-      <a href="index.html" class="nav-logo" aria-label="Stine Photography – Startseite">
-        <span class="logo-text">Stine <em>Photography</em></span>
+      <a href="/" class="nav-logo" aria-label="Stine Photography – Startseite">
+        <img src="img/logo.png" alt="Stine Photography Logo" class="nav-logo-img" />
       </a>
+
       <ul class="nav-links" role="list">
-        <li><a href="index.html" class="nav-link">Home</a></li>
-        <li><a href="gallery.html" class="nav-link">Galerie</a></li>
-        <li><a href="photo-booths.html" class="nav-link">Photo Booths</a></li>
-        <li><a href="kontakt.html" class="nav-link">Kontakt</a></li>
+        <li><a href="/index.html" class="nav-link" aria-current="page">Home</a></li>
+        <li><a href="/gallery.html" class="nav-link">Galerie</a></li>
+        <li><a href="/photo-booths.html" class="nav-link">Photo Booths</a></li>
+        <li><a href="/contact.html" class="nav-link">Kontakt</a></li>
       </ul>
-      <a href="kontakt.html" class="nav-cta">Anfragen</a>
+
+      <a href="/contact.html" class="nav-cta">Anfragen</a>
+
       <button class="hamburger" id="hamburger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navDrawer">
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
@@ -47,22 +53,27 @@
     </button>
     <nav aria-label="Mobile Hauptnavigation">
       <ul class="drawer-links" role="list">
-        <li><a href="index.html" class="drawer-link">Home</a></li>
-        <li><a href="gallery.html" class="drawer-link">Galerie</a></li>
-        <li><a href="photo-booths.html" class="drawer-link">Photo Booths</a></li>
-        <li><a href="kontakt.html" class="drawer-link">Kontakt</a></li>
+        <li><a href="/index.html" class="drawer-link">Home</a></li>
+        <li><a href="/gallery.html" class="drawer-link">Galerie</a></li>
+        <li><a href="/photo-booths.html" class="drawer-link">Photo Booths</a></li>
+        <li><a href="/contact.html" class="drawer-link">Kontakt</a></li>
       </ul>
     </nav>
-    <div class="drawer-social">
-      <a href="https://www.instagram.com/stinephotography" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-      <a href="https://www.facebook.com/stinephotography" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
-      <a href="https://wa.me/4933112345678" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+    <div class="drawer-social" aria-label="Social Media Links">
+      <a href="https://www.instagram.com/stinephotography" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.facebook.com/stinephotography" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+      </a>
+      <a href="https://wa.me/493316003340" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+      </a>
     </div>
   </aside>
 
   <main>
 
-    <!-- LEGAL HEADER -->
     <div class="legal-header">
       <div class="container">
         <nav class="breadcrumb" aria-label="Brotkrumen-Navigation">
@@ -77,30 +88,9 @@
       </div>
     </div>
 
-    <!-- TOC -->
-    <div class="legal-toc-wrap">
-      <div class="container container--legal">
-        <nav class="legal-toc" aria-label="Inhaltsverzeichnis">
-          <p class="legal-toc-heading">Inhaltsverzeichnis</p>
-          <ol class="legal-toc-list">
-            <li><a href="#ck-was">Was sind Cookies?</a></li>
-            <li><a href="#ck-arten">Arten von Cookies</a></li>
-            <li><a href="#ck-notwendig">Technisch notwendige Cookies</a></li>
-            <li><a href="#ck-statistik">Statistik-Cookies</a></li>
-            <li><a href="#ck-marketing">Marketing-Cookies</a></li>
-            <li><a href="#ck-drittanbieter">Drittanbieter-Dienste</a></li>
-            <li><a href="#ck-verwalten">Einstellungen verwalten</a></li>
-            <li><a href="#ck-browser">Cookies im Browser deaktivieren</a></li>
-          </ol>
-        </nav>
-      </div>
-    </div>
-
-    <!-- LEGAL CONTENT -->
     <div class="legal-content">
       <div class="container container--legal">
 
-        <!-- 1. Was sind Cookies -->
         <section class="legal-section" id="ck-was" aria-labelledby="ls-was">
           <h2 class="legal-section-title" id="ls-was">
             <span class="legal-section-num">01</span>
@@ -117,7 +107,6 @@
           </div>
         </section>
 
-        <!-- 2. Arten -->
         <section class="legal-section" id="ck-arten" aria-labelledby="ls-arten">
           <h2 class="legal-section-title" id="ls-arten">
             <span class="legal-section-num">02</span>
@@ -151,7 +140,6 @@
           </div>
         </section>
 
-        <!-- 3. Notwendig -->
         <section class="legal-section" id="ck-notwendig" aria-labelledby="ls-notwendig">
           <h2 class="legal-section-title" id="ls-notwendig">
             <span class="legal-section-num">03</span>
@@ -184,7 +172,6 @@
           </div>
         </section>
 
-        <!-- 4. Statistik -->
         <section class="legal-section" id="ck-statistik" aria-labelledby="ls-statistik">
           <h2 class="legal-section-title" id="ls-statistik">
             <span class="legal-section-num">04</span>
@@ -216,7 +203,6 @@
           </div>
         </section>
 
-        <!-- 5. Marketing -->
         <section class="legal-section" id="ck-marketing" aria-labelledby="ls-marketing">
           <h2 class="legal-section-title" id="ls-marketing">
             <span class="legal-section-num">05</span>
@@ -248,7 +234,6 @@
           </div>
         </section>
 
-        <!-- 6. Drittanbieter -->
         <section class="legal-section" id="ck-drittanbieter" aria-labelledby="ls-drittanbieter">
           <h2 class="legal-section-title" id="ls-drittanbieter">
             <span class="legal-section-num">06</span>
@@ -295,7 +280,6 @@
           </div>
         </section>
 
-        <!-- 7. Einstellungen -->
         <section class="legal-section" id="ck-verwalten" aria-labelledby="ls-verwalten">
           <h2 class="legal-section-title" id="ls-verwalten">
             <span class="legal-section-num">07</span>
@@ -311,7 +295,6 @@
           </div>
         </section>
 
-        <!-- 8. Browser -->
         <section class="legal-section" id="ck-browser" aria-labelledby="ls-browser">
           <h2 class="legal-section-title" id="ls-browser">
             <span class="legal-section-num">08</span>
@@ -347,52 +330,57 @@
 
   </main>
 
-  <!-- FOOTER -->
-  <footer class="site-footer" role="contentinfo">
+ <footer class="site-footer" role="contentinfo">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="nav-logo footer-logo" aria-label="Stine Photography – Startseite">
-            <span class="logo-text">Stine <em>Photography</em></span>
+          <a href="/index.html" class="nav-logo footer-logo" aria-label="Stine Photography – zurück zur Startseite">
+            <img src="/img/logo.png" alt="Stine Photography Logo" class="footer-logo-img" />
           </a>
           <p class="footer-tagline">Zwei Herzen, ein gemeinsames Auge für den perfekten Moment. Hochzeitsfotografie in Potsdam und darüber hinaus.</p>
           <div class="footer-social">
             <a href="https://www.instagram.com/stinephotography" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
             <a href="https://www.facebook.com/stinephotography" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
-            <a href="https://wa.me/4933112345678" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="https://wa.me/493316003340" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
           </div>
         </div>
+
         <div class="footer-nav">
           <h3 class="footer-nav-title">Navigation</h3>
           <ul role="list">
-            <li><a href="index.html" class="footer-link">Home</a></li>
-            <li><a href="gallery.html" class="footer-link">Galerie</a></li>
-            <li><a href="photo-booths.html" class="footer-link">Photo Booths</a></li>
-            <li><a href="kontakt.html" class="footer-link">Kontakt</a></li>
+            <li><a href="/index.html" class="footer-link">Home</a></li>
+            <li><a href="/gallery.html" class="footer-link">Galerie</a></li>
+            <li><a href="/index.html#about" class="footer-link">Über uns</a></li>
+            <li><a href="/photo-booths.html" class="footer-link">Photo Booths</a></li>
+            <li><a href="/index.html#process" class="footer-link">Ablauf</a></li>
+            <li><a href="/index.html#faq" class="footer-link">FAQ</a></li>
+            <li><a href="/contact.html" class="footer-link">Kontakt</a></li>
           </ul>
         </div>
+
         <div class="footer-nav">
           <h3 class="footer-nav-title">Rechtliches</h3>
           <ul role="list">
-            <li><a href="imprint.html" class="footer-link">Impressum</a></li>
-            <li><a href="privacy.html" class="footer-link">Datenschutzerklärung</a></li>
-            <li><a href="cookies-policy.html" class="footer-link active" aria-current="page">Cookie-Richtlinie</a></li>
+            <li><a href="/imprint.html" class="footer-link">Impressum</a></li>
+            <li><a href="/privacy.html" class="footer-link">Datenschutzerklärung</a></li>
+            <li><a href="/cookies-policy.html" class="footer-link">Cookie-Richtlinie</a></li>
             <li><button class="footer-cookie-btn" id="footerCookieBtn">Cookie-Einstellungen</button></li>
           </ul>
         </div>
       </div>
+
       <div class="footer-bottom">
         <p class="footer-copyright">&copy; <span id="footerYear"></span> Stine Photography. Alle Rechte vorbehalten.</p>
-        <p class="footer-made-with">Hochzeitsfotografie in Potsdam &amp; Brandenburg</p>
+        <p class="credit">Réalisé par
+                    <a href="https://huhpact.dev?utm_source=stine&utm_medium=webbrowser&utm_campaign=stine">
+                        <img class="img__credit" src="https://huhpact.dev/images/G89WG6majMo4HT1WtrS4AfxE7BZj2yWS.png" alt="huh(pact)">
+                    </a>
+                </p>
       </div>
     </div>
   </footer>
 
-  <button class="back-to-top" id="backToTop" aria-label="Zurück nach oben">
-    <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
-  </button>
-
-  <a href="https://wa.me/4933112345678" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" aria-label="Via WhatsApp kontaktieren">
+  <a href="https://wa.me/493316003340" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" aria-label="Via WhatsApp kontaktieren">
     <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
     <span class="whatsapp-tooltip" aria-hidden="true">Schreibt uns!</span>
   </a>
